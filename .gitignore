@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+**/.env
+
+# Local databases and agent state
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Build
+frontend/dist/
+
+# OS
+.DS_Store
